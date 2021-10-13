@@ -1,0 +1,16 @@
+2021-10-13 12:52:01.453 +05:30 [INF] Starting up
+2021-10-13 12:52:01.950 +05:30 [INF] ConfigureServices - Adding Controllers 
+2021-10-13 12:52:02.226 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-13 12:52:02.232 +05:30 [INF] Hosting environment: Development
+2021-10-13 12:52:02.234 +05:30 [INF] Content root path: C:\Users\91981\source\repos\MiddleWareTest\MiddleWareTest
+2021-10-13 12:52:02.245 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44366/swagger/index.html  
+2021-10-13 12:52:02.300 +05:30 [INF] Request finished in 58.1027ms 200 text/html;charset=utf-8
+2021-10-13 12:52:02.564 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44366/swagger/v1/swagger.json  
+2021-10-13 12:52:02.621 +05:30 [INF] Request finished in 57.7519ms 200 application/json;charset=utf-8
+2021-10-13 12:52:36.178 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44366/WeatherForecast  
+2021-10-13 12:52:36.191 +05:30 [INF] Executing endpoint 'MiddleWareTest.Controllers.WeatherForecastController.Get (MiddleWareTest)'
+2021-10-13 12:52:36.229 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[MiddleWareTest.WeatherForecast] Get() on controller MiddleWareTest.Controllers.WeatherForecastController (MiddleWareTest).
+2021-10-13 12:52:36.236 +05:30 [INF] Executing ObjectResult, writing value of type 'MiddleWareTest.WeatherForecast[]'.
+2021-10-13 12:52:36.252 +05:30 [INF] Executed action MiddleWareTest.Controllers.WeatherForecastController.Get (MiddleWareTest) in 16.2386ms
+2021-10-13 12:52:36.254 +05:30 [INF] Executed endpoint 'MiddleWareTest.Controllers.WeatherForecastController.Get (MiddleWareTest)'
+2021-10-13 12:52:36.257 +05:30 [INF] Request finished in 79.2611ms 200 application/json; charset=utf-8
